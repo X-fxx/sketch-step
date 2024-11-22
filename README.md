@@ -1,6 +1,6 @@
 # sketch-step
 ## 2024.11.22
-1. ControlNet-sdxl-1.0  [huggingface]https://huggingface.co/xinsir/controlnet-scribble-sdxl-1.0
+1. ControlNet-sdxl-1.0  [https://huggingface.co/xinsir/controlnet-scribble-sdxl-1.0]
 2. 两种获得轮廓的方式(输入的图片是二值形式的，只有0/255两个取值，并且**轮廓的边缘是白色，背景是黑色**)
    - HEG 提取边缘
    - 直接使用sketch
