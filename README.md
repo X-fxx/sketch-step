@@ -16,5 +16,8 @@ controlnet_img = Image.fromarray(controlnet_img)
 ```
 3. SDXL中ControlNet最大的controlnet_conditioning_scale为1，通常最好是取0.5。
 ![image](https://github.com/user-attachments/assets/03ab7029-2fd8-4b17-8fac-457a9f0fe3f8)
+## 2024.11.23
+diffusers中不同的模型，返回的内容不同，更换模型后需要打印输出具体的模型返回结构，得到对应的内容
+问题：如何得到内部的返回结果，来进行inverse
 
 
